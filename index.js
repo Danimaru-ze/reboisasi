@@ -8,8 +8,8 @@ const path = "./data.json";
 const git = simpleGit();
 
 // Fokus ke tahun 2024 saja
-const startDate = moment("2024-01-01");
-const endDate = moment("2025-05-21");
+const startDate = moment("2022-01-01");
+const endDate = moment("2024-01-01");
 const minCommitsPerDay = 30; // Minimal commit per hari
 
 const displayUI = (message, type = "info") => {
